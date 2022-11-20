@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <title>TO DO List</title>
 </head>
-<body class="container">
+<body>
+<div class="container">
    <form>
-    <input type="text" placeholder="your name" id="name">
+    <input type="text" placeholder="your name" id="name" required>
     <input type="email" placeholder="your email" id="email">
-    <input type="number" placeholder="your phone number" id="number">
+    <input type="number" placeholder="your phone number" id="number" required>
     <input type="submit" placeholder="submit" id="button">
    </form>
-<br>
+   <p class="red_alet">Enter Email address</p>
+</div>
+<div class="container">
 <table>
 <thead>
 <tr>
@@ -29,6 +32,7 @@
     
 </tbody>
 </table>
+</div>
 </body>
 <script src="app.js"></script>
 </html>

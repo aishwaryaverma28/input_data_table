@@ -55,12 +55,17 @@ table th{
 #action{
     width: 10rem;
 }
-#delete{
+.deleteBtn{
     width: 10rem;
     padding-top: 0.65rem;
     padding-bottom: 0.65rem;
     background-color: #9d0208;
     color: #ddd;
-    border: none;
-    
+    border: none;   
+}
+.deleteBtn:hover{
+    background-color: #9d0208;
+    /* border: #9d0208; */
+    color: white;
+    cursor: pointer;
 }
